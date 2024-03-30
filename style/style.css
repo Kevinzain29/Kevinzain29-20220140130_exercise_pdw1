@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.Judul {
+    justify-content: center;
+    color: beige;
+}
+.Muslim img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 500px;
+}
+
+.Penemu img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 500px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background-color: orange;
+    text-align: center;
+
+    background-image: url(https://iluminasi.com/img/upload/kisah-nabi-palsu-zaman-rasulullah-saw.jpg); 
+}
+
+.biografiA {
+    text-align: center;
+    color: bisque;
+}
+
+.biografiB {
+    text-align: center;
+    color: bisque;
+}
+.Muslim, .Penemu h2 {
+    color: bisque;
+}
+
+.Kritik {
+    color: beige;
+}
+
+.border {
+    border: solid 5px white; 
+    width: 500px; 
+    border-radius: 25px;
+}
+
+.border2 {
+    border: solid 5px white; 
+    width: 500px; 
+    border-radius: 25px;
+}
+
+.Kritik {
+    font-size: x-large;
+}
+
+
+
+

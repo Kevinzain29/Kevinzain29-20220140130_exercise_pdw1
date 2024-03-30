@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penemu Muslim</title>
+    <link rel="stylesheet" href="style/style.css">
+      
+</head>
+<body>
+    <h1 class="Judul">PENEMU MUSLIM</h1>
+    <div class="border">
+    <div class="Muslim">
+        <h2>Al-khawarizmi</h2>
+        <img src="assets/Biografi-Al-Khawarizmi-1.jpg" alt="Alkhawarizmi">
+        <div class="biografiA">
+            <p>Muhammad ibn Musa al-Khwarizmi adalah seorang matematikawan Persia, astronom, astrolog ahli geografi dan seorang sarjana di Rumah Kebijaksanaan di Bagdad. Ia dilahirkan di Persia pada waktu itu sekitar tahun 780. Al-Khawarizmi adalah salah satu orang terpelajar yang bekerja di Rumah Kebijaksanaan. Al-Khawarizmi berkembang saat bekerja sebagai anggota Rumah Kebijaksanaan di Bagdad di bawah kepemimpinan Kalif al-Mamun, putra Khalif Harun al-Rashid, yang menjadi terkenal di Malam Arab. Rumah Kebijaksanaan adalah pusat penelitian dan pengajaran ilmiah.</p>
+        </div>
+    </div>
+</div>
+<div class="border2">
+    <div class="Penemu">
+        <h2>Ibnu Sina</h2>
+        <img src="assets/Ibnu-Sina-devianartdotcom.jpg" alt="Ibnu Sina">
+        <div class="biografiB">
+            <p>Ibnu Sina (980 – Juni 1037 M), umumnya dikenal di Barat sebagai Avicenna, adalah tokoh terkemuka filsuf dan dokter dunia Muslim, berkembang selama Zaman Keemasan Islam, bertugas di istana berbagai penguasa Iran. Ia sering digambarkan sebagai bapak pengobatan modern awal. Filsafatnya adalah aliran Peripatetik Muslim yang berasal dari Aristotelianisme. Karyanya yang paling terkenal adalah The Book of Healing, sebuah ensiklopedia filosofis dan ilmiah, 
+                dan The Canon of Medicine, sebuah ensiklopedia medis yang menjadi teks kedokteran standar di banyak 
+                universitas abad pertengahan dan tetap bertahan di digunakan hingga akhir tahun 1650 </p>
+        </div>
+    </div>
+</div>
+    <div class="Kritik">
+        <form>
+            <label for="Kitik">kritik & saran:</label>
+            <input type="text" placeholder="isi disini">
+    
+            <button onclick="sweetAlert()" type="submit">submit</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            sweetAlert(); 
+        });
+        function sweetAlert() {
+            Swal.fire({
+                title: "Terima Kasih telah meluangkan waktu untuk memberikan kritik dan saran kepada kami :)",
+                Text: "Berhasil",
+                icon: "success"
+            });
+        }
+    </script>
+</body>
+</html>
