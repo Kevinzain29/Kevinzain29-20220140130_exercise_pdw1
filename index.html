@@ -8,8 +8,11 @@
       
 </head>
 <body>
+    <!--membuat class untuk dipanggil kemudian diatur ke dalam css-->
     <h1 class="Judul">PENEMU MUSLIM</h1>
+     <!--membuat class border untuk mengatur border pada css-->
     <div class="border">
+        <!--membuat class Muslim untuk mengatur judul dan paragraf pada css-->
     <div class="Muslim">
         <h2>Al-khawarizmi</h2>
         <img src="assets/Biografi-Al-Khawarizmi-1.jpg" alt="Alkhawarizmi">
@@ -18,7 +21,9 @@
         </div>
     </div>
 </div>
+        <!--membuat class border2 untuk mengatur border pada css-->
 <div class="border2">
+     <!--membuat class Penemu untuk mengatur judul dan paragraf pada css-->
     <div class="Penemu">
         <h2>Ibnu Sina</h2>
         <img src="assets/Ibnu-Sina-devianartdotcom.jpg" alt="Ibnu Sina">
@@ -29,6 +34,7 @@
         </div>
     </div>
 </div>
+    <!--membuat class kritik untuk mmengatur teks kritik dan saram pada css -->
     <div class="Kritik">
         <form>
             <label for="Kitik">kritik & saran:</label>
@@ -37,7 +43,9 @@
             <button onclick="sweetAlert()" type="submit">submit</button>
         </form>
     </div>
+    <!--internal JavaScript (letak penulisannya sama seperti internal CSS yang berada di dalam file HTML)-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--internal JavaScript untuk menampilkan sweet alert-->
     <script>
         document.querySelector('form').addEventListener('submit', function(event) {
             event.preventDefault(); 
