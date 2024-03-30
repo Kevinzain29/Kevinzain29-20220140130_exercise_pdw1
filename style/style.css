@@ -1,13 +1,15 @@
+*eksternal css yaitu kode css yang penulisannya diluar file html (di dalam file css)*/
 *{
     padding: 0px;
     margin: 0px;
     border: 0px;
 }
-
+/*eksternal css untuk mengatur judul pada class Judul */
 .Judul {
     justify-content: center;
     color: beige;
 }
+/*eksternal css untuk mengatur gambar pada class Muslim */
 .Muslim img {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -15,7 +17,7 @@
     border-bottom-right-radius: 25px;
     width: 500px;
 }
-
+/*eksternal css untuk mengatur gambar pada class Penemu */
 .Penemu img {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -23,7 +25,7 @@
     border-bottom-right-radius: 25px;
     width: 500px;
 }
-
+/*eksternal css untuk mengatur semua yang ada didalam body */
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 100vh;
@@ -32,36 +34,37 @@ body {
 
     background-image: url(https://iluminasi.com/img/upload/kisah-nabi-palsu-zaman-rasulullah-saw.jpg); 
 }
-
+/*eksternal css untuk mengatur paragraf pada class biografiA */
 .biografiA {
     text-align: center;
     color: bisque;
 }
-
+/*eksternal css untuk mengatur paragraf pada class biografiB */
 .biografiB {
     text-align: center;
     color: bisque;
 }
+/*eksternal css untuk mengatur warna judul pada pada class Muslim dan Penemu */
 .Muslim, .Penemu h2 {
     color: bisque;
 }
-
+/*eksternal css untuk mengatur warna kritik dan saran pada class Kritik */
 .Kritik {
     color: beige;
 }
-
+/*eksternal css untuk mengatur border pada class border */
 .border {
     border: solid 5px white; 
     width: 500px; 
     border-radius: 25px;
 }
-
+/*eksternal css untuk mengatur border pada class border */
 .border2 {
     border: solid 5px white; 
     width: 500px; 
     border-radius: 25px;
 }
-
+/*eksternal css untuk mengatur ukuran  kritik dan saran pada class Kritik */
 .Kritik {
     font-size: x-large;
 }
