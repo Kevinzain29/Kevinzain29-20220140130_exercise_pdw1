@@ -1,71 +1,105 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-}
-/*eksternal css untuk mengatur judul pada class Judul */
-.Judul {
-    justify-content: center;
-    color: beige;
-}
-.Muslim img {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    width: 500px;
-}
-
-.Penemu img {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    width: 500px;
-}
-
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height: 100vh;
-    background-color: orange;
-    text-align: center;
-
-    background-image: url(https://iluminasi.com/img/upload/kisah-nabi-palsu-zaman-rasulullah-saw.jpg); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0932b, #e67e22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
 }
 
-.biografiA {
-    text-align: center;
-    color: bisque;
+.Judul {
+    color: #fff7e6;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
 }
 
-.biografiB {
+.border, .border2 {
+    background-color: #fff;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 20px;
+    overflow: hidden; /* agar sudut membulat pada gambar dan header */
+    margin-bottom: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.border:hover, .border2:hover {
+    transform: translateY(-10px);
+}
+
+.Muslim h2, .Penemu h2 {
+    background-color: #5e3b1e; /* warna header card seperti gambar */
+    color: #f5f5dc;
+    padding: 15px;
+    margin: 0;
+    font-size: 1.8rem;
     text-align: center;
-    color: bisque;
 }
-.Muslim, .Penemu h2 {
-    color: bisque;
+
+.Muslim img, .Penemu img {
+    width: 100%;
+    display: block;
 }
-/*eksternal css untuk mengatur warna kritik dan saran pada class Kritik */
+
+.biografiA, .biografiB {
+    padding: 20px;
+    background-color: #5e3b1e;
+    color: #f0e5d8;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
 .Kritik {
-    color: beige;
+    width: 90%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    text-align: left;
 }
 
-.border {
-    border: solid 5px white; 
-    width: 500px; 
-    border-radius: 25px;
+.Kritik label {
+    display: block;
+    margin-bottom: 10px;
+    color: #5e3b1e;
 }
 
-.border2 {
-    border: solid 5px white; 
-    width: 500px; 
-    border-radius: 25px;
+.Kritik input[type="text"] {
+    width: 100%;
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 1rem;
 }
 
-.Kritik {
-    font-size: x-large;
+.Kritik button {
+    display: inline-block;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .Kritik button:hover {
-    background-color: #e67e22;
+    background-color: #d35400;
 }
+
+@media (max-width: 600px) {
+    .Judul {
+        font-size: 2.2rem;
+    }
+}
+    
