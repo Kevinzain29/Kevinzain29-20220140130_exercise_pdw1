@@ -1,103 +1,69 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+/*eksternal css untuk mengatur judul pada class Judul */
+.Judul {
+    justify-content: center;
+    color: beige;
+}
+.Muslim img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 500px;
+}
+
+.Penemu img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 500px;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #e67e22, #d35400);
-    color: #f8f8f8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background-color: orange;
     text-align: center;
-    min-height: 100vh;
-    padding: 40px 20px;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+
+    background-image: url(https://iluminasi.com/img/upload/kisah-nabi-palsu-zaman-rasulullah-saw.jpg); 
 }
 
-.Judul {
-    color: #fff8dc;
-    font-size: 3rem;
-    margin-bottom: 50px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+.biografiA {
+    text-align: center;
+    color: bisque;
 }
 
-.border, .border2 {
-    background-color: rgba(0, 0, 0, 0.6);
-    border: 2px solid #fff;
+.biografiB {
+    text-align: center;
+    color: bisque;
+}
+.Muslim, .Penemu h2 {
+    color: bisque;
+}
+/*eksternal css untuk mengatur warna kritik dan saran pada class Kritik */
+.Kritik {
+    color: beige;
+}
+
+.border {
+    border: solid 5px white; 
+    width: 500px; 
     border-radius: 25px;
-    width: 90%;
-    max-width: 600px;
-    margin: 30px auto;
-    overflow: hidden;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
-    transition: transform 0.3s ease;
 }
 
-.border:hover, .border2:hover {
-    transform: scale(1.02);
-}
-
-.Muslim img, .Penemu img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-bottom: 2px solid #fff;
-}
-
-.Muslim h2, .Penemu h2 {
-    color: #ffdead;
-    font-size: 2rem;
-    margin: 20px 0 10px 0;
-}
-
-.biografiA p, .biografiB p {
-    color: #f8f8f8;
-    font-size: 1rem;
-    padding: 0 20px 20px;
-    line-height: 1.6;
-    text-align: justify;
+.border2 {
+    border: solid 5px white; 
+    width: 500px; 
+    border-radius: 25px;
 }
 
 .Kritik {
-    background-color: rgba(0, 0, 0, 0.6);
-    border: 2px solid #fff;
-    border-radius: 25px;
-    width: 90%;
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    font-size: 1.2rem;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
-}
-
-.Kritik form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-}
-
-.Kritik input[type="text"] {
-    padding: 10px 15px;
-    width: 100%;
-    max-width: 400px;
-    border-radius: 8px;
-    border: none;
-    font-size: 1rem;
-    outline: none;
-}
-
-.Kritik button {
-    padding: 10px 30px;
-    background-color: #f39c12;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-size: x-large;
 }
 
 .Kritik button:hover {
